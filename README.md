@@ -7,21 +7,21 @@ Model → API → Frontend → Visualization.
 
 ---
 
-## Backend
+# Backend
  - Run ipynb file and make pkl file
  - Open cmd in backend and run this code
- # python -m pip install -r requirements.txt
- -Then to make api run this
- # python -m uvicorn app:app --reload
+ ## python -m pip install -r requirements.txt
+ - Then to make api run this
+ ## python -m uvicorn app:app --reload
 
-## Frontend
+# Frontend
  - Open Cmd in frontend and run following code
  - run code to make react
  - then download tailwind css
  - change src folder with this folder
  - replace both config file
  - Then after run backend run this code
- # npm run dev
+ ## npm run dev
 
 
 
@@ -232,3 +232,4 @@ If you want next:
 
 
 Just tell me 👌
+
