@@ -7,10 +7,22 @@ Model → API → Frontend → Visualization.
 
 ---
 
-Main Command
-For Backend:
-python -m uvicorn app:app --reload
-For Frontend: npm run dev
+## Backend
+ - Run ipynb file and make pkl file
+ - Open cmd in backend and run this code
+ # python -m pip install -r requirements.txt
+ -Then to make api run this
+ # python -m uvicorn app:app --reload
+
+## Frontend
+ - Open Cmd in frontend and run following code
+ - run code to make react
+ - then download tailwind css
+ - change src folder with this folder
+ - replace both config file
+ - Then after run backend run this code
+ # npm run dev
+
 
 
 ## 📌 Features
@@ -217,5 +229,6 @@ If you want next:
 - 📸 README with screenshots  
 - 🐳 Docker-ready README  
 - 🧾 Resume / LinkedIn project description  
+
 
 Just tell me 👌
